@@ -2,10 +2,7 @@ import React from 'react';
 
 import arrow_down from "./images/arrow-down.svg";
 
-class Stats extends React.Component{
-    render () {
-        return (
-            
+const Stats = () => (
                 <div className="stats">
             <div className="card card--orange">
                 <div className="card__tabs">
@@ -83,9 +80,7 @@ class Stats extends React.Component{
             </div>
         </div>
         
-        );
-    }
-}
+)
 
 
 export default Stats;

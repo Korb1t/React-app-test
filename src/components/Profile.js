@@ -7,9 +7,7 @@ import experience from "./images/profile/experience.svg";
 import edit from "./images/profile/edit.svg";
 import logout from "./images/profile/logout.svg";
 
-class Profile extends React.Component {
-    render (){
-        return(
+const Profile = () => (
                 <div className="profile">
                         <div className="profile__container">
                             <div className="profile__avatar">
@@ -55,8 +53,6 @@ class Profile extends React.Component {
                             <div className="tabs__tab">friends</div>
                         </div>
                 </div>
-        );
-    }
-}
+)
 
 export default Profile;

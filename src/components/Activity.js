@@ -9,9 +9,7 @@ import avatar4 from "./images/main/avatar4.png";
 import arrow_down from "./images/arrow-down.svg";
 
 
-class Activity extends React.Component  {
-    render () {
-        return (
+const Activity = () =>  (
             <div>
                         <div className="activity">
             <div className="experience">
@@ -121,8 +119,6 @@ class Activity extends React.Component  {
             </div>
         </div>
             </div>
-        );
-    }
-}
+)
 
 export default Activity;

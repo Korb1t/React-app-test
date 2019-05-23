@@ -8,9 +8,7 @@ import course from "./images/sidebar/course.svg";
 import exam from "./images/sidebar/exam.svg";
 import news from "./images/sidebar/news.svg";
 
-class Sidebar extends React.Component{
-    render () {
-        return (
+const Sidebar = () => (
                 <div className="sidebar">
         <div className="sidebar__header">
             <div className="header__avatar">
@@ -42,8 +40,6 @@ class Sidebar extends React.Component{
         </div>
     </div>
         
-        );
-    }
-}
+)
 
 export default Sidebar;

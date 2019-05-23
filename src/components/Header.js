@@ -6,11 +6,7 @@ import notifications from "./images/header/notifications.svg";
 import logo from "./images/header/logo.png";
 import search from "./images/header/search.svg";
 
-class Header extends React.Component {
-    render () {
-        return (
-            
-                
+const Header = () => (
                 <header className="header">
                     <div className="header__controls">
                         <img src={account} alt="account" className="header__icon" />
@@ -31,8 +27,7 @@ class Header extends React.Component {
                     </form>
                 </header>
            
-        );
-    }
-}
+)
+
 
 export default Header;
