@@ -8,7 +8,8 @@
 
 ## Third command
 
-### `npm i` to install all modules
+### `npm i`
+to install all modules
 
 ## Available Scripts
 
