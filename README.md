@@ -2,6 +2,14 @@
 
 ### `https://github.com/Korb1t/React-app-test`
 
+## Second command
+
+### `cd React-app-test`
+
+## Third command
+
+### `npm i` to install all modules
+
 ## Available Scripts
 
 In the project directory, you can run:
