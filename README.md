@@ -1,6 +1,6 @@
 ## First command 
 
-### `git clone https://github.com/Korb1t/Kursa4.git`
+### `https://github.com/Korb1t/React-app-test`
 
 ## Available Scripts
 
